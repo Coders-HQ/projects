@@ -23,8 +23,10 @@ body:
     description: Please select the change type.
     options:
       - Project Tech Stack
-      - Project labels
-      - Project proposal template
+      - Labels
+      - Issue template
+      - Discussion Category
+      - Other, specify in details
 
 - type: dropdown
   id: change-action
