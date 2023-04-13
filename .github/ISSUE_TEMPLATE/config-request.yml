@@ -1,4 +1,4 @@
-name: Repo Config Request
+name: 🔧 Config Request
 description: Request a change to the repository configuration like labels, adding tech stacks, fields to the project proposal template etc.
 title: "🔧 <title>"
 labels: [new, config-request]
