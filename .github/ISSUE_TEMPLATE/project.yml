@@ -24,7 +24,6 @@ body:
   attributes:
     label: Project Executive Summary
     description: Please provide a brief summary of 250 word max for your project proposal
-    render: Text
   validations:
     required: true
 
