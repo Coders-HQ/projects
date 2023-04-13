@@ -3,6 +3,15 @@ description: report a bug or unexpected behavior
 title: "🐞 <title>"
 labels: [new, bug]
 body:
+- type: markdown
+  attributes:
+    value: |
+      ## Thank you for contributing !
+      This for reporting a bug or an unexpected behavior,
+      for initiating a discussion please use the [Discussions](https://github.com/Coders-HQ/projects/discussions) tab.
+
+      **Please don't use the label emoji anywhere in the title or description '🏷️' as it will conflict with the auto labeling workflow.**
+
 - type: checkboxes
   attributes:
     label: Is there an existing issue for this?
