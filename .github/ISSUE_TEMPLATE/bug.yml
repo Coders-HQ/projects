@@ -1,0 +1,38 @@
+name: 🐞 Bug
+description: report a bug or unexpected behavior
+title: "🐞 <title>"
+labels: [new, bug]
+body:
+- type: checkboxes
+  attributes:
+    label: Is there an existing issue for this?
+    description: Please search to see if the bug is reported [list of bugs](https://github.com/Coders-HQ/projects/labels/bug).
+    options:
+    - label: I have searched and this is a new bug
+      required: true
+
+- type: textarea
+  attributes:
+    label: Current Behavior
+    description: What are you experiencing.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: What is expected to happen.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Steps To Reproduce
+    description: Steps to reproduce.
+    placeholder: |
+      On my MC/PC using chrome/edge, firefox, safari, etc. when I do the following:
+      1. Do ...
+      3. Run ...
+      4. See error ...
+  validations:
+    required: true
