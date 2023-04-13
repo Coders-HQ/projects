@@ -1,0 +1,50 @@
+name: Repo Config Request
+description: Request a change to the repository configuration like labels, adding tech stacks, fields to the project proposal template etc.
+title: "🔧 <title>"
+labels: [new, config-request]
+assignees:
+  - alchatti
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## Thank you for contributing !
+      This for raising a change request to alter the project issue template and the labels, for initiating a discussion please use the [Discussions](https://github.com/Coders-HQ/projects/discussions) tab.
+
+- type: dropdown
+  id: change-type
+  validations:
+    required: true
+  attributes:
+    label: Change Type
+    description: Please select the change type.
+    options:
+      - Project Tech Stack
+      - Project labels
+      - Project proposal template
+
+- type: dropdown
+  id: change-action
+  validations:
+    required: true
+  attributes:
+    label: Change Type
+    description: Please select the change type.
+    options:
+      - Add
+      - Remove
+      - Modify
+
+- type: textarea
+  attributes:
+    label: Change request Details
+    description: Details of the change request
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Justification / Reason
+    description: The reason for the change request
+  validations:
+    required: true
