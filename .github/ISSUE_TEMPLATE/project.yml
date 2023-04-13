@@ -58,16 +58,16 @@ body:
     description: Please select the technology stack that applies to your project, this will help us to find the right people to help you.
     multiple: true
     options:
-      - Blockchain tech-stack
-      - DevOps tech-stack
-      - e-commerce tech-stack
-      - e-gov tech-stack
-      - Game tech-stack
-      - IoT tech-stack
-      - Machine learning & Artificial intelligence tech-stack
-      - Mobile tech-stack
-      - Quantum Computing tech-stack
-      - Virtual/Augmented reality tech-stack
-      - Web tech-stack
-      - Other tech-stack
+      - 🏷️Blockchain tech-stack
+      - 🏷️DevOps tech-stack
+      - 🏷️e-commerce tech-stack
+      - 🏷️e-gov tech-stack
+      - 🏷️Game tech-stack
+      - 🏷️IoT tech-stack
+      - 🏷️Machine learning & Artificial intelligence tech-stack
+      - 🏷️Mobile tech-stack
+      - 🏷️Quantum Computing tech-stack
+      - 🏷️Virtual/Augmented reality tech-stack
+      - 🏷️Web tech-stack
+      - 🏷️Other tech-stack
 
