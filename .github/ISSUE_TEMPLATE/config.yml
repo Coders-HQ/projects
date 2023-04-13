@@ -1,9 +1,9 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Discussion
+  - name: 💬 Discussion
     url: https://github.com/Coders-HQ/projects/discussions
     about: Ask a question or start a general discussion before project issue is created.
 
-  - name: CodersHQ Link tree
+  - name: 📎 CodersHQ link tree
     url: https://linktr.ee/codershq
     about: Find us on other platforms.
