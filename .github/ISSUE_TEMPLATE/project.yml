@@ -1,0 +1,73 @@
+name: Project Proposal
+description: create a new project proposal
+title: "🫧 <title>"
+labels: [new, project]
+assignees:
+  - delrius-euphoria
+  - alchatti
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## Thank you for contributing !
+      This for submitting a project proposal, for idea discussion please use the [Discussions](https://github.com/Coders-HQ/projects/discussions) tab.
+
+- type: checkboxes
+  attributes:
+    label: I have checked the projects and there is no similar one?
+    description: Please search to see if similar project proposal already exists.
+    options:
+    - label: I have searched the existing projects and did not find a similar one
+      required: true
+
+- type: textarea
+  attributes:
+    label: Project Executive Summary
+    description: Please provide a brief summary of 250 word max for your project proposal
+    render: Text
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Project Details
+    description: Please provide a detailed description of your project
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Project Sponsor Details
+    description: Please provide details of the project sponsor
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Project benefits
+    description: Please provide a list of benefits for your project
+  validations:
+    required: true
+
+- type: dropdown
+  id: tech-stack
+  validations:
+    required: true
+  attributes:
+    label: Project technology stack
+    description: Please select the technology stack that applies to your project, this will help us to find the right people to help you.
+    multiple: true
+    options:
+      - Blockchain tech-stack
+      - DevOps tech-stack
+      - e-commerce tech-stack
+      - e-gov tech-stack
+      - Game tech-stack
+      - IoT tech-stack
+      - Machine learning & Artificial intelligence tech-stack
+      - Mobile tech-stack
+      - Quantum Computing tech-stack
+      - Virtual/Augmented reality tech-stack
+      - Web tech-stack
+      - Other tech-stack
+
