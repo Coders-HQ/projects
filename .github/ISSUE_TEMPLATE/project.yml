@@ -1,6 +1,6 @@
 name: 🧩 Project Proposal
 description: create a new project proposal
-title: "🫧 <title>"
+title: "🧩 <title>"
 labels: [new, project]
 assignees:
   - delrius-euphoria
